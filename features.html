@@ -1,0 +1,1735 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.1//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-2.dtd"> 
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns="http://www.w3.org/1999/xhtml" version="XHTML+RDFa 1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml http://www.w3.org/MarkUp/SCHEMA/xhtml-rdfa-2.xsd" lang="en" xml:lang="en" dir="ltr" xmlns:og="http://ogp.me/ns#" >
+<head>
+<meta property="fb:admins" content="1385990521,1067000078" />
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="apple-touch-icon" sizes="72x72" href="http://www.thrashermagazine.com/templates/Interior/ICON-72x72.jpg">
+<link rel="apple-touch-icon" sizes="144x144" href="http://www.thrashermagazine.com/templates/Interior/ICON-124x124.jpg">
+      
+	<link rel="apple-touch-icon" href="/imagesV2/InHouse_Misc/2010/ThrasherAppleIcon.jpg" />
+
+
+
+
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Thrasher, Magazine, Skateboarding, Skateboarding Videos, Interviews, Articles" />
+  <meta name="description" content="Thrasher Magazine - skateboarding news videos photos clothing skateparks events music and more" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Thrasher Skateboard Magazine | Videos</title>
+  <link href="/templates/Interior/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/components/com_jevents/views/default/assets/css/modstyle.css" type="text/css" />
+
+  <script src='http://player.ooyala.com/v3/febb9836f42a4527b0b1e69d2f9b9366?tweaks=test'></script>
+
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAAWzoueghyIZohlSEqbb0UhS0UcOnZX1tomPjztF-if9K9FKWSxROv5CcIH9hZsTiolhJDZoY5pmaLQ&amp;sensor=true" type="text/javascript"></script>
+
+<!--END JOS HEAD-->
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+  // You may specify partial version numbers, such as "1" or "1.3",
+  //  with the same result. Doing so will automatically load the 
+  //  latest version matching that partial revision pattern 
+  //  (e.g. 1.3 would load 1.3.2 today and 1 would load 1.5.1).
+  google.load("jquery", "1.5.1");
+ 
+  google.setOnLoadCallback(function() {
+  skin();
+    // Place init code here instead of $(document).ready()
+  });
+</script>
+
+<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+</script>
+<link rel="publisher" href="https://plus.google.com/102172920960859510808" />
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<style>#system-debug{display:none;}</style>
+
+
+<script type="text/javascript" src="http://www.thrashermagazine.com/includes/js/JavascriptInclude.js"></script>
+
+
+<!-- DO NOT KNOW IF I NEED IT <link href="/components/com_jreviews/jreviews/views/themes/default/theme_css/fancybox/jquery.fancybox.css" type="text/css" rel="stylesheet"/> -->
+<link rel="stylesheet" href="shane_goes.css" type="text/css" /><!--[if IE 7]><link rel="stylesheet" type="text/css" href="http://www.thrashermagazine.com/templates/Interior/css/IE7styles.css" /><![endif]-->  
+
+<script type="text/javascript">
+
+function CHANGEVIDEO() {
+if(jQuery("[id^=ThrasherVideoContainer]").length){
+jQuery("[id^=ThrasherVideoContainer]").each(function (){
+   var NewVideoLink = jQuery(this).next().html();
+   console.log(jQuery(this).next().html());
+   NewVideoLink = NewVideoLink.match(/file: \'[a-z A-Z 0-9 \. : \/ _ %]+/);
+ 	NewVideoLink = NewVideoLink[0].substr(7);
+		console.log(NewVideoLink);
+var height =441;
+var NEWVIDEOCODE = '<object CLASSID="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" width="610" height="'+height+'" CODEBASE="http://www.apple.com/qtactivex/qtplugin.cab"><param name="src" value="http://' + NewVideoLink + '"><param name="autoplay" value="true"><param name="loop" value="false"><param name="scale" value="tofit"><param name="controller" value="true"><embed src="' + NewVideoLink + '" width="610" height="'+height+'" autoplay="true" loop="false" controller="true" pluginspage="http://www.apple.com/quicktime/" scale="tofit"></embed></object>';
+
+
+		_gaq.push(['_trackEvent', "JW Player Video Plays Quicktime Switch" , "http://" + NewVideoLink, document.location.href]); 
+		
+jQuery(this).replaceWith('<div>'+NEWVIDEOCODE+'</div>');
+});
+}else{
+jQuery("#container").each(function (){
+   var NewVideoLink = jQuery(this).next().html();
+   console.log(jQuery(this).next().html());
+   NewVideoLink = NewVideoLink.match(/http:\/\/\'[a-z A-Z 0-9 \. : \/ _ %]+/);
+ 	NewVideoLink = jQuery("#container_video", this).attr("src");
+		console.log(NewVideoLink);
+var height =441;
+var NEWVIDEOCODE = '<object CLASSID="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" width="610" height="'+height+'" CODEBASE="http://www.apple.com/qtactivex/qtplugin.cab"><param name="src" value="http://' + NewVideoLink + '"><param name="autoplay" value="true"><param name="loop" value="false"><param name="scale" value="tofit"><param name="controller" value="true"><embed src="' + NewVideoLink + '" width="610" height="'+height+'" autoplay="true" loop="false" controller="true" pluginspage="http://www.apple.com/quicktime/" scale="tofit"></embed></object>';
+
+
+		_gaq.push(['_trackEvent', "JW Player Video Plays Quicktime Switch" , "http://" + NewVideoLink, document.location.href]); 
+		
+jQuery(this).replaceWith('<div>'+NEWVIDEOCODE+'</div>');
+
+
+});
+}
+//		document.getElementById('playinquicktime').innerHTML="Flash";
+//		document.getElementById('playinquicktime').onclick= flashSomething;	
+	}
+	function flashSomething(){
+	window.location.reload(true)
+	}
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+	function CheckSelect2(){
+	var sel2=document.getElementById("cat_id");
+	for (var i=0; i< sel2.options.length ;i++) {if (sel2.options[i].value == '61'){sel2.options[i].selected = true;
+	 clearInterval(SubmitIntervalId);}
+	jreviews.listing.submitCategory(document.getElementById('cat_id'));
+	}
+	}
+function CheckSelect(){
+
+	var sel=document.getElementById("section_id");
+	for (var i=0; i< sel.options.length ;i++) {if (sel.options[i].value == '17')         sel.options[i].selected = true; }
+jreviews.listing.submitSection(document.getElementById('section_id'));
+SubmitIntervalId =setInterval("CheckSelect2()", 500);
+}
+//]]>
+</script>
+
+ <script type="text/javascript">
+ function blockAdblockUser() {
+if(jQuery('#HeaderAd iframe').length){
+_gaq.push(['_trackEvent', 'AdBlockerV3', 'Not Enabled', '']);
+}else{
+_gaq.push(['_trackEvent', 'AdBlockerV3', 'Enabled', '']);
+}
+}
+
+jQuery(document).ready(function(){
+    setTimeout(function(){blockAdblockUser();}, 2000);
+});
+</script>
+<script type="text/javascript">
+function WhereFrom(link, category, action, label) { 
+ 
+try { 
+_gaq.push(['_trackEvent', category , action, label]); 
+} catch(err){}
+ 
+setTimeout(function() {
+document.location.href = link.href;
+}, 100);
+}
+</script>
+
+<style>
+.LandingPageTagModule ul {
+margin-left: 0px;
+padding-left: 0px;
+}
+</style>
+</head>
+<body onload="skin();"><div id="fb-root"></div>
+<script type="text/javascript">
+window.fbAsyncInit = function() { FB.init({appId: '218476574831295', status: true, cookie: true, xfbml: true}); };
+(function() { var e = document.createElement('script');
+e.type = 'text/javascript';
+e.src = document.location.protocol + '//connect.facebook.net/en_GB/all.js';
+e.async = true;
+document.getElementById('fb-root').appendChild(e);
+}());
+</script>
+
+	
+
+	<div id="Container" style="height:0px;">
+
+		<div id="header">
+			<div id="HeaderImage">
+				<a href="index.html"><img src="imgs/Header_logo.jpg" alt="Header " /></a>
+			</div>
+			<div id="Search">
+				<form action="index.php" method="post">
+	<div class="search">
+		<input name="searchword" id="mod_search_searchword" maxlength="20" alt="Search" class="inputbox" type="text" size="20" value="search..."  onblur="if(this.value=='') this.value='search...';" onfocus="if(this.value=='search...') this.value='';" />	</div>
+	<input type="hidden" name="task"   value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="105" />
+</form>
+			</div>
+			<div id="LoginBox">
+				
+<!-- /mod_php version 1.0.0.Alpha1-J1.5 (c) www.fijiwebdesign.com -->
+ Hey there Lurker, <a href="javascript:void();" onclick="secondFunction();">Log in</a> or <a href="/Register/">Register</a>
+<!-- mod_php version 1.0.0.Alpha1-J1.5/ -->
+
+			</div>
+			<div id="HeaderAd">
+			 
+					<div class="module">
+			<div>
+				<div>
+					<div>
+											
+<!-- /mod_php version 1.0.0.Alpha1-J1.5 (c) www.fijiwebdesign.com -->
+ <!-- Thrasher_Leaderboard_728x90 -->
+<div id='div-gpt-ad-1340759916634-4' style='width:728px; height:90px;'>
+<a href="http://www.ebay.com/"><img src="imgs/spitfire_volcom_top.jpg"></a>
+</div>
+
+<!-- mod_php version 1.0.0.Alpha1-J1.5/ -->
+					</div>
+				</div>
+			</div>
+		</div>
+	
+						</div>
+			<div id="Menu">
+				<ul class="menuMain_Title_"><li id="current" class="active item1"><a href="index.html"><span>Home</span></a></li>
+                <li onmouseover="SubMenu2()" onmouseout="SubMenuUndo2()" class="item98"><a href="store.html"><span>Store</span></a></li>
+                <li onmouseover="SubMenu3()" onmouseout="SubMenuUndo3()" class="item93"><a href="videos.html"><span>Thrasher Skateboard Magazine | Videos</span></a></li>
+                <li onmouseover="SubMenu()" onmouseout="SubMenuUndo()" class="parent item99"><a href="features.html"><span>Features</span></a></li>
+                <li onmouseover="SubMenu4()" onmouseout="SubMenuUndo4()" class="item100"><a href="events.html"><span>Thrasher Skateboard Magazine | Events</span></a></li>
+                <li onmouseover="SubMenu5()" onmouseout="SubMenuUndo5()" class="parent item94"><a href="skateparks.html"><span>Skateparks</span></a></li>
+                <li onmouseover="SubMenu7()" onmouseout="SubMenuUndo7()" class="item101"><a href="forum.html"><span>Forum</span></a></li>
+                <li onmouseover="SubMenu6()" onmouseout="SubMenuUndo6()" class="item102"><a href="#"><span>Magazine</span></a></li>
+                <li class="item124"><a href="#"><span>Skateshops</span></a></li></ul>
+			</div>
+			<div id="FeaturesHiddenMenu" onmouseover="clearTimeout(FeaturesTimeout);" onmouseout="SubMenuUndo()" style="background-color: #000; display: none; opacity: 0; position: absolute;  top: 159px; z-index: 999999; width: 400px; margin-left: auto; margin-right: auto;min-height:308px;left:285px;">
+				<div onclick="top.location.href='http://www.thrashermagazine.com/tags/Features/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">Most Recent</div><div onclick="top.location.href='http://www.thrashermagazine.com/tags/king+of+the+road+2014/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">King Of The Road</div><div onclick="top.location.href='http://www.thrashermagazine.com/tags/skatepark+roundup+list/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">Skatepark Round-Up</div><div onclick="top.location.href='http://www.thrashermagazine.com/tags/Interviews/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">Interviews</div><div onclick="top.location.href='http://www.thrashermagazine.com/tags/five+Sequences/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">Five Sequences</div><div onclick="top.location.href='http://www.thrashermagazine.com/tags/Burnout/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">Burnout</div><div onclick="top.location.href='http://www.thrashermagazine.com/tags/music/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">Music</div><div onclick="top.location.href='http://www.thrashermagazine.com/tags/from+the+crypt/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">Crypt</div><div onclick="top.location.href='http://www.thrashermagazine.com/tags/win+free+stuff/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">Win Free Stuff</div>
+			</div>
+			<div id="StoreHiddenMenu" onmouseover="clearTimeout(StoreTimeout);" onmouseout="SubMenuUndo2()" style="background-color: #000; display: none; opacity: 0; position: absolute;  z-index: 999999; margin-left: auto; margin-right: auto; min-height: 325px; width: 694px; padding-right: 20px; padding-left: 20px;padding-bottom:20px; left: 77px; top: 170px;">
+				<div style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;" onclick="top.location.href='http://shop.thrashermagazine.com/special-offers'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';">Web Specials</div>
+
+<div style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;" onclick="top.location.href='http://shop.thrashermagazine.com/subscriptions.html'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';">Subscriptions</div>
+
+<div style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;" onclick="top.location.href='http://shop.thrashermagazine.com/subscriptions/united-states/us-27.html'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';">Subscription Renewals</div>
+
+<div onclick="top.location.href='http://shop.thrashermagazine.com/magazines/current-issue.html?dir=asc&order=position'" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';">Current issue</div>
+
+<div onclick="top.location.href='http://shop.thrashermagazine.com/magazines/back-issues.html?dir=desc&order=position'" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';">Back Issues</div>
+
+<div onclick="top.location.href='http://shop.thrashermagazine.com/clothing/shirts/t-shirts.html'" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';">T-Shirts</div>
+
+<div onclick="top.location.href='http://shop.thrashermagazine.com/clothing/sweatshirts.html'" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';">Sweatshirts</div>
+
+<div onclick="top.location.href='http://shop.thrashermagazine.com/clothing/girls.html'" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';">Girls Gear</div>
+
+<div style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;" onclick="top.location.href='http://shop.thrashermagazine.com/accessories-and-more/stickers.html'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';">Stickers</div>
+
+<div style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;" onclick="top.location.href='http://shop.thrashermagazine.com/customer-service'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';">Customer Service</div>
+			</div>
+			<div id="VideosHiddenMenu" onmouseover="clearTimeout(VideosTimeout);" onmouseout="SubMenuUndo3()" style="background-color: #000; display: none; opacity: 0; position: absolute;  top: 159px; z-index: 999999; width: 640px; margin-left: auto; margin-right: auto;">
+				<div onclick="top.location.href='http://www.thrashermagazine.com/tags/greatest+hits/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">Greatest Hits</div><div onclick="top.location.href='http://www.thrashermagazine.com/articles/videos/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">Most Recent</div><div onclick="top.location.href='http://www.thrashermagazine.com/tags/king+of+the+road+2014/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">King Of The Road 2014</div><div onclick="top.location.href='http://www.thrashermagazine.com/component/option,com_hwdvideoshare/Itemid,93/cat_id,21/task,viewcategory/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">Skatepark Round-Up</div><div onclick="top.location.href='http://www.thrashermagazine.com/tags/double+rock/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">Double Rock</div><div onclick="top.location.href='http://www.thrashermagazine.com/tags/firing+line/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">Firing Line</div><div onclick="top.location.href='http://www.thrashermagazine.com/component/option,com_hwdvideoshare/Itemid,93/cat_id,36/task,viewcategory/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">Skate Rock</div><div onclick="top.location.href='http://www.thrashermagazine.com/tags/skateline/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">Skate Line</div><div onclick="top.location.href='http://www.thrashermagazine.com/tags/hall+of+meat/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">Hall Of Meat</div><div onclick="top.location.href='http://www.thrashermagazine.com/tags/classics/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">Classics</div><div onclick="top.location.href='http://www.thrashermagazine.com/tags/pstone/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">P-Stone Clips</div><div onclick="top.location.href='http://www.thrashermagazine.com/component/option,com_hwdvideoshare/Itemid,93/cat_id,26/task,viewcategory/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;">Events &amp; Contests</div>
+			</div>
+			<div id="EventsHiddenMenu" onmouseover="clearTimeout(EventsTimeout);" onmouseout="SubMenuUndo4()" style="background-color: #000; display: none; opacity: 0; position: absolute;  top: 159px; z-index: 999999; width: 640px; margin-left: auto; margin-right: auto;">
+				
+			</div>
+			<div id="SkateparksHiddenMenu" onmouseover="clearTimeout(SkateparksTimeout);" onmouseout="SubMenuUndo5()" style="background-color: #000; display: none; opacity: 0; position: absolute;  top: 159px; z-index: 999999; width: 640px; margin-left: auto; margin-right: auto;">
+				
+			</div>
+			<div id="ForumHiddenMenu" onmouseover="clearTimeout(ForumTimeout);" onmouseout="SubMenuUndo7()" style="background-color: #000; display: none; opacity: 0; position: absolute;  top: 159px; z-index: 999999; width: 640px; margin-left: auto; margin-right: auto;">
+				
+			</div>
+			<div id="MagazineHiddenMenu" onmouseover="clearTimeout(MagazineTimeout);" onmouseout="SubMenuUndo6()" style="background-color: #000; display: none; opacity: 0; position: absolute;  top: 159px; z-index: 999999; width: 640px; margin-left: auto; margin-right: auto;">
+				<div style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;" onclick="top.location.href='http://shop.thrashermagazine.com/subscriptions.html'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';">Subscriptions</div>
+
+<div style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;" onclick="top.location.href='http://shop.thrashermagazine.com/magazines/back-issues.html?dir=desc&order=position'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';">Back Issues</div>
+
+<div onclick="top.location.href='http://www.thrashermagazine.com/articles/covers/covers-index/'" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';">Covers Archive</div>
+
+<div onclick="top.location.href='http://www.thrashermagazine.com/tags/magazine/'" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';">Articles &amp; Features</div>
+
+<div style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;" onclick="top.location.href='http://www.thrashermagazine.com/user-help/contact/'" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';">Contact Us</div>
+
+<div onclick="top.location.href='http://www.thrashermagazine.com/user-help/submit-guidelines/'" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';">Submissions</div>
+
+<div onclick="top.location.href='http://www.thrashermagazine.com/locate/skateshops/'" style="padding: 5px 15px 0px; height: 20px; font-size: 12px; font-weight: bold;" onmouseout="this.style.color='#fff';this.style.background='#444';" onmouseover="this.style.color='#c00';this.style.background='#000';">Find Skateshops</div>
+			</div>
+		</div>
+						<div class="colmask rightmenu">
+			<div class="colleft" >
+				<div class="col1wrap">
+					<div id="IEhelper" class="col1">
+						<div id="jwd_pathway">
+							
+						</div>
+						<span id='TagindexSpan' style='display: block; background-color: rgb(255, 255, 255); padding-top: 15px; padding-left:15px; padding-right:15px;'><style>.componentheadingFeatures{display:none;}</style><span class="FeatureSubHeadline">Features By Category:</span><ul id="FeatureTopSquareNav" style="margin:10px 0;"><li><a id="FeatureSquare_Roundup" href="/tags/skatepark+roundup+list/">Skatepark Round-Up</a></li><li><a id="FeatureSquare_Burnout" href="/articles/burnout/">Burnout</a></li><li><a id="FeatureSquare_DoubleROck" href="/tags/double+rock/">Double Rock</a></li><li style="margin:0 0 2px 0;"><a id="FeatureSquare_5Seq" href="/articles/five-sequences/">Five Sequenes</a></li><li><a id="FeatureSquare_HallOfMeat" href="/tags/hall+of+meat/">Hall Of Meat</a></li><li><a id="FeatureSquare_Classics" href="/tags/classics/">Clasics</a></li><li><a id="FeatureSquare_AskPhelper" href="/tags/ask+the+phelper/">Ask The Phelper</a></li><li><a id="FeatureSquare_WinFreeStuff" href="/articles/win-free-stuff/">Win Free Stuff</a></li></ul><div style="clear:both;padding-bottom:30px;padding-top:5px;"></div><span class="FeatureSubHeadline">Recent Features:</span> </span>					
+<!-- Start K2 Generic Layout -->
+<div id="k2Container" class="genericView Features">
+
+		<!-- Page title $this->params->get('show_page_title') -->
+	<div class="componentheadingFeatures">
+		Displaying items by tag: Features	</div>
+	
+	
+		<div class="genericItemList">
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		Chris Wimer Interview			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="#" title="Chris Wimer Interview">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/bdce71d651337837d6c234ec58847484_Generic.jpg" alt="Chris Wimer Interview" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<p class="p1"><img alt="" src="features/CW-center-column-sfw-2.jpg" style="width: 200px; height: 133px; float: left;" />Jamie Thomas sits down with the Zero Army's latest recruit to discuss his hard-charging "No Cash Value" Part.</p>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/chris-wimer-interview/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Wednesday, 18 March 2015 10:00				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/">Articles</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		Firing Line: Mike Mo Capaldi			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="#" title="Firing Line: Mike Mo Capaldi">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/f0772c7aedd7bbd496f6626bc60bc85f_Generic.jpg" alt="Firing Line: Mike Mo Capaldi" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<p><img alt="" src="features/280_MikeMoCapaldiFL.jpg" style="width: 200px; height: 134px; float: left;" /></p><p class="p1">Mike Mo coasts through a schoolyard and stomps three smooth moves, as he is known to do.</p>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/videos/firing-line-mike-mo-capaldi-03212015/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Monday, 16 March 2015 13:05				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/videos/">Videos</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		The Descent: Hill-Bomb Photo Feature			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="#" title="The Descent: Hill-Bomb Photo Feature">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/a616f0db2256f7f1735717ae9bba2b8e_Generic.jpg" alt="The Descent: Hill-Bomb Photo Feature" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<p><img alt="" src="features/Hill-center-column-fnl.jpg" style="width: 200px; height: 133px; float: left;" />It could be considered skating's first real "make" and to this day the ancient art of hill-bombing is a timeless tradition. Take a spin with us: straight down.</p>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/the-descent-hill-bomb-photo-feature/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Wednesday, 03 September 2014 15:00				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/">Articles</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		Firing Line: Jordan Hoffart			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="#" title="Firing Line: Jordan Hoffart">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/6773bb8d838f1f3935be85d9f8fc0192_Generic.jpg" alt="Firing Line: Jordan Hoffart" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<p><img alt="" src="features/280_JordanHoffart.jpg" style="width: 200px; height: 134px; float: left;" />Jordan caps off a marathon line with a possible Guinness World Record.&nbsp;</p>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/videos/firing-line-jordan-hoffart-082014/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Friday, 22 August 2014 16:23				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/videos/">Videos</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		Jake Johnson&#039;s &quot;Static IV&quot; Part			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="#" title="Jake Johnson&#039;s &quot;Static IV&quot; Part">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/7de789c8366bb46cd2e7b9931323dc0c_Generic.jpg" alt="Jake Johnson&#039;s &quot;Static IV&quot; Part" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<p><img alt="" src="features/JAKE-JOHNSON-STATIC-IV_NAV.jpg" style="width: 200px; height: 134px; float: left;" />There's more emphasis on creative skating than ever before. It sometimes feels forced with others, but Jake has a truly unique approach to skating. His "Mind Field" part is regarded as a modern classic and he adds to his legacy here.</p>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/videos/jake-johnsons-static-iv-part/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Monday, 14 July 2014 16:31				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/videos/">Videos</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		Van Doren Invitational 2014: Hastings Finals			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="#" title="Van Doren Invitational 2014: Hastings Finals">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/256d88d420623b17ff4880547971d998_Generic.jpg" alt="Van Doren Invitational 2014: Hastings Finals" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<p><img alt="" src="features/280_VDIfinals.jpg" style="width: 200px; height: 134px; float: left;" />Great weather, beautiful women, amazing Canadian hospitality, insane skating, and one of the gnarliest slams of all-time. This one had it all, with Alex Sorgente taking home the prize. Chalk up another epic contest to Vans.</p>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/videos/van-doren-invitational-2014-hastings-finals/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Sunday, 13 July 2014 17:16				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/videos/">Videos</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		Van Doren Invitational 2014: Hastings Finals			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="#" title="Van Doren Invitational 2014: Hastings Finals">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/256d88d420623b17ff4880547971d998_Generic.jpg" alt="Van Doren Invitational 2014: Hastings Finals" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<p><img alt="" src="features/280_VDIfinals.jpg" style="width: 200px; height: 134px; float: left;" />Great weather, beautiful women, amazing Canadian hospitality, insane skating, and one of the gnarliest slams of all-time. This one had it all, with Alex Sorgente taking home the prize. Chalk up another epic contest to Vans.</p>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/videos/van-doren-invitational-2014-hastings-finals/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Sunday, 13 July 2014 17:16				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/videos/">Videos</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		Davis Torgerson&#039;s &quot;Ticket To Ride&quot; Part			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="#" title="Davis Torgerson&#039;s &quot;Ticket To Ride&quot; Part">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/ef511dd311d205a6bce54596fcd8b2c6_Generic.jpg" alt="Davis Torgerson&#039;s &quot;Ticket To Ride&quot; Part" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<p><img alt="" src="features/rs_davis_ticket_TH187.jpg" style="width: 200px; height: 134px; float: left;" />It's tough to pinpoint, but there's a bunch of unique elements to Davis' skating that make this part so fun to watch. Quick, explosive snap. Effortless makes. Trick choices that edit well together. Congrats, Davis. What a great part.&nbsp;</p>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/videos/davis-torgersons-ticket-to-ride-part/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Sunday, 29 June 2014 16:39				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/videos/">Videos</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		Orchard&#039;s &quot;Stone Soup&quot; Full Video			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="/articles/videos/orchards-stone-soup-full-video/" title="Orchard&#039;s &quot;Stone Soup&quot; Full Video">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/9bb853589bd3ea24ffb968abcaa7e3d1_Generic.jpg" alt="Orchard&#039;s &quot;Stone Soup&quot; Full Video" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<p><img alt="" src="features/280_orchardFull.jpg" style="width: 200px; height: 134px; float: left;" />Shop videos represent everything we love about skateboarding and this one from Orchard in Boston has it all. It's a true glimpse into the scene, complete with sick local street spots, young upstarts, surprise guests, legends like Jahmal Williams, and even some shredding from the owners. Enjoy!</p>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/videos/orchards-stone-soup-full-video/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Friday, 27 June 2014 16:19				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/videos/">Videos</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		Nike’s “Lord of the Pies” Video			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="#" title="Nike’s “Lord of the Pies” Video">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/fcf186c0fe27e49731db00e07e65100e_Generic.jpg" alt="Nike’s “Lord of the Pies” Video" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<p><img alt="" src="features/280LordofPies.jpg" style="width: 200px; height: 134px; float: left;" />Trust us, you're gonna want to whip around on transitions and float some ollies after watching this. Greyson Fletcher, Grant Taylor, Ben Raybourn, and others. Greyson's line at 5:25 is unreal.</p>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/videos/lord-of-the-pies-five-days-in-oz-with-nike-video/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Thursday, 26 June 2014 10:00				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/videos/">Videos</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		Vincent Luevanos &quot;Where Is It&quot; Part			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="#" title="Vincent Luevanos &quot;Where Is It&quot; Part">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/f2538a1d8025ca46a70b4b23233d1449_Generic.jpg" alt="Vincent Luevanos &quot;Where Is It&quot; Part" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<p><img alt="" src="features/280_Vincent.jpg" style="width: 200px; height: 134px; float: left;" /></p><p class="p1">If you don't have a clue what to expect in a part from this guy, well, neither did we. There's some kick-ass surprises in here. Great job, Vince.</p>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/videos/vincent-lu-where-is-it-part/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Tuesday, 24 June 2014 09:41				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/videos/">Videos</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		Andrew Lutheran&#039;s &quot;Going Bro&quot; Part			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="#" title="Andrew Lutheran&#039;s &quot;Going Bro&quot; Part">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/a4141f10e919c675a6276bf2456f4335_Generic.jpg" alt="Andrew Lutheran&#039;s &quot;Going Bro&quot; Part" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<div><img alt="" src="features/DrewGoingBroMed(1).jpg" style="width: 200px; height: 134px; float: left;" />When it's a company with your friends, like Bro Style, the vibes are good. Here's Andrew shredding, along with his brother Daniel, Leo Romero, Dakota Servold, and others.&nbsp;</div>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/videos/andrew-lutherans-going-bro-part/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Thursday, 19 June 2014 18:27				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/videos/">Videos</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		Ryan Decenzo&#039;s &quot;Double Down&quot; Part			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="#" title="Ryan Decenzo&#039;s &quot;Double Down&quot; Part">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/7472f7a54453f0433f88d446c7dad0f4_Generic.jpg" alt="Ryan Decenzo&#039;s &quot;Double Down&quot; Part" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<p><img alt="" src="features/280_double_down.jpg" style="width: 200px; height: 134px; float: left;" />Ryan has that rare "problem" where he stacks such a firestorm of utterly insane clips that even a skate rat's brain has a hard time comprehending it all. You just have to watch this.</p>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/videos/ryan-decenzos-double-down-part/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Friday, 13 June 2014 16:43				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/videos/">Videos</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		Lance Mountain’s “Happy 50th Birthday” Video			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="#" title="Lance Mountain’s “Happy 50th Birthday” Video">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/63ffb5f68a7224135eb2a964d53fd892_Generic.jpg" alt="Lance Mountain’s “Happy 50th Birthday” Video" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<p><img alt="" src="features/280_LanceMountain.jpg" style="width: 200px; height: 134px; float: left;" />June 13th was Lance Mountain's 50th birthday. Throughout all the eras of skateboarding no one has brought the fun, creativity and progression quite like Lance Mountain. Happy birthday Lance! Here's to 50 more!</p>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/videos/happy-50th-lance/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Friday, 13 June 2014 08:51				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/videos/">Videos</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		Raymond Molinar&#039;s &quot;Metro Lines&quot; Part			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="#" title="Raymond Molinar&#039;s &quot;Metro Lines&quot; Part">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/09d9a84ecbcfa34bb4af99b9b20e56b8_Generic.jpg" alt="Raymond Molinar&#039;s &quot;Metro Lines&quot; Part" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<p><img alt="" src="features/Raymond-NAV.jpg" style="width: 200px; height: 134px; float: left;" />The streets are Raymond's kingdom in this stylized, conceptual edit that combines skating in the dead of night, public transit, and classic live hip-hop. Brought to you by WKND skateboards.</p>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/videos/raymond-molinars-metro-lines-part/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Monday, 09 June 2014 12:00				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/videos/">Videos</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		Bobby Worrest&#039;s &quot;Luxury and Loudness&quot; Part			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="#" title="Bobby Worrest&#039;s &quot;Luxury and Loudness&quot; Part">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/6548d55a1cd40888cef49ddbdb386585_Generic.jpg" alt="Bobby Worrest&#039;s &quot;Luxury and Loudness&quot; Part" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<p><img alt="" src="features/280_Bobby.jpg" style="width: 200px; height: 134px; float: left;" />Wow, he's always been good but something really set a fire under Bobby lately and he's been a true skate demon. Here's more of that smooth tech he's known for plus some straight-up hammers.</p>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/videos/bobby-worrests-luxury-and-loudness-part/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Friday, 06 June 2014 16:30				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/videos/">Videos</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		Frecks&#039; &quot;Wasting Time&quot; Part			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="#" title="Frecks&#039; &quot;Wasting Time&quot; Part">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/05f125c0e625b23a85c2751d57a7f37f_Generic.jpg" alt="Frecks&#039; &quot;Wasting Time&quot; Part" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<p><img alt="" src="features/280Frecks.jpg" style="width: 200px; height: 134px; float: left;" />The term "ATV" gets thrown around pretty loosely, but Frecks is the real embodiment of All Terrain. There are some hairballl ditch stunts in this part, as well as revenge for the ghosts of Hall of Meats past...</p>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/videos/frecks-wasting-time-part/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Friday, 30 May 2014 15:23				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/videos/">Videos</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		&quot;From the Borders&quot; Full Feature			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="#" title="&quot;From the Borders&quot; Full Feature">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/65d2103e999df25effd925fa3e432c4a_Generic.jpg" alt="&quot;From the Borders&quot; Full Feature" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<p><img alt="" src="features/From-the-Borders-Feature--Nav.jpg" style="width: 200px; height: 134px; float: left;" />Laughs, slams, makes, nature shots, and some unique editing. This one is a trip. Special mention for Dave Mull's ripping and creative part starting at 4:52.</p>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/videos/from-the-borders-full-feature/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Monday, 26 May 2014 11:00				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/videos/">Videos</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+		
+		<!-- Start K2 Item Layout -->
+		<div class="genericItemView">
+
+			<div class="genericItemHeader">
+				
+			
+			  			  <!-- Item title -->
+			  <h2 class="genericItemTitle">
+			  			  						<a href="#">
+			  		Converse &quot;10 Days to Texas&quot; full video			  	</a>
+			  				  </h2>
+			  		  </div>
+
+		  <div class="genericItemBody">
+			  			  <!-- Item Image -->
+			  <div class="genericItemImageBlock">
+				  <span class="genericItemImage">
+				    <a href="#" title="Converse &quot;10 Days to Texas&quot; full video">
+				    	<img src="http://www.thrashermagazine.com/media/k2/items/cache/6aec12a09cbc25d5e693655a22febc56_Generic.jpg" alt="Converse &quot;10 Days to Texas&quot; full video" />
+				    </a>
+				  </span>
+				  <div class="clr"></div>
+			  </div>
+			  			  
+			  			  <!-- Item introtext -->
+			  <div class="genericItemIntroText">
+			  	<p><img alt="" src="features/280_10Days.jpg" style="width: 200px; height: 133px; float: left;" />This well-filmed video has a rad adventure vibe and has some of the biggest ditch terrain the US has to offer. Featuring Manderson, Louie Lopez, Sammy Baca, Kenny Anderson, and Nuge. Special mention for Raemers' gap to 50-50.</p>			  </div>
+			  
+			  <div class="clr"></div>
+		  </div>
+		  
+		  <div class="clr"></div>
+
+
+<span class="CatShare"><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thrashermagazine.com/articles/videos/converse-10-days-to-texas-full-video/&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe></span>
+
+		  			<!-- Item 'read more...' link -->
+			<div class="genericItemReadMore">
+				<a class="k2ReadMore" href="#">
+					Read More				</a>
+			</div>
+										<!-- Date created -->
+				<span class="genericItemDateCreated">
+					Sunday, 25 May 2014 06:00				</span>
+										<!-- Item category name -->
+			<div class="genericItemCategory">
+				<span>Category:</span>
+				<a href="/articles/videos/">Videos</a>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clr"></div>
+		</div>
+		<!-- End K2 Item Layout -->
+		
+			</div>
+
+	<!-- Pagination -->
+		<div class="k2Pagination">
+		<ul class="pagination"><li>&laquo;</li><li>&nbsp;<span>Start</span>&nbsp;</li><li>&nbsp;<span>Prev</span>&nbsp;</li><li>&nbsp;<span>1</span>&nbsp;</li><li>&nbsp;<strong><a href="/tags/features/Page-1/" title="2">2</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/tags/features/Page-2/" title="3">3</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/tags/features/Page-3/" title="4">4</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/tags/features/Page-4/" title="5">5</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/tags/features/Page-5/" title="6">6</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/tags/features/Page-6/" title="7">7</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/tags/features/Page-7/" title="8">8</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/tags/features/Page-8/" title="9">9</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/tags/features/Page-9/" title="10">10</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/tags/features/Page-1/" title="Next">Next</a></strong>&nbsp;</li><li>&nbsp;<strong><a href="/tags/features/Page-17/" title="End">End</a></strong>&nbsp;</li><li>&raquo;</li></ul>		<div class="clr"></div>
+		Page 1 of 18	</div>
+	
+		
+</div>
+<!-- End K2 Generic Layout -->
+
+<!-- JoomlaWorks "K2" (v2.3) | Learn more about K2 at http://getk2.org -->
+
+
+													<!-- Column 1 end -->
+					</div>
+				</div>
+				<div id="RightSide" class="col2">
+					<div id="SocialNetworkIconContainer"><a onClick="WhereFrom(this, 'SocialIconsRight', 'ContantContact'); return false;" href="http://visitor.constantcontact.com/manage/optin?v=001Utocbh1JAdUdX5pNIfjCWbEsIywAtOUu" id="SocialNetworkIconsEmail" target="_blank" title="Sign up for our free Thrasher email newsletter"> </a> <a onClick="WhereFrom(this, 'SocialIconsRight', 'Facebook'); return false;" href="http://www.facebook.com/thrashermagazine" id="SocialNetworkIconsFacebook" target="_blank" title="Become our fan on Facebook"> </a> <a onClick="WhereFrom(this, 'SocialIconsRight', 'Twitter'); return false;" href="http://www.twitter.com/thrashermag" id="SocialNetworkIconsTwitter" target="_blank" title="Follow us on Twitter"> </a> <a onClick="WhereFrom(this, 'SocialIconsRight', 'Instagram'); return false;" href="http://instagram.com/thrashermag" id="SocialNetworkIconsMyspace" target="_blank" title="Follow us on Instagram"> </a> <a onClick="WhereFrom(this, 'SocialIconsRight', 'YouTube'); return false;" href="http://www.youtube.com/thrashermagazine" id="SocialNetworkIconsYoutube" target="_blank" title="Subscribe to our YouTube channel"> </a> <a onClick="WhereFrom(this, 'SocialIconsRight', 'RSS'); return false;" href="/user-help/wtf-is-rss/" id="SocialNetworkIconsRSS" title="WTF is RSS and why do I need it?"> </a></div>
+<!-- /mod_php version 1.0.0.Alpha1-J1.5 (c) www.fijiwebdesign.com -->
+ <div id="AD300x600"><!-- Thrasher_Tower_300x600 -->
+<div id='div-gpt-ad-1340759916634-7' style='width:300px; height:600px;'>
+<a href="http://www.toyota.co.uk/"><img src="imgs/14447021053772835467.jpg"></a>
+</div></div>
+
+<!-- mod_php version 1.0.0.Alpha1-J1.5/ -->
+<table class="mod_events_latest_table" width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td class="mod_events_latest_first"><span class="mod_events_latest_content"><a href="/component/option,com_jevents/Itemid,100/day,14/evid,911/month,03/task,icalrepeat.detail/uid,f3ec1c973a4860f6939a9a84c6961e7a/year,2015/">Powell Peralta Tour</a></span> USA  <span class="mod_events_latest_date">Mar 19</span></td></tr>
+<tr><td class="mod_events_latest"><span class="mod_events_latest_content"><a href="/component/option,com_jevents/Itemid,100/day,18/evid,905/month,03/task,icalrepeat.detail/uid,0034d743707e7e3e5ec7f1cbe5e52f2d/year,2015/">Death Match 2015</a></span> Austin, TX  <span class="mod_events_latest_date">Mar 19</span></td></tr>
+<tr><td class="mod_events_latest"><span class="mod_events_latest_content"><a href="/component/option,com_jevents/Itemid,100/day,19/evid,914/month,03/task,icalrepeat.detail/uid,b6f46ee106ad38b40e6b580ab6750b88/year,2015/">18 Premiere</a></span> NY NY  <span class="mod_events_latest_date">Mar 19</span></td></tr>
+<tr><td class="mod_events_latest"><span class="mod_events_latest_content"><a href="/component/option,com_jevents/Itemid,100/day,21/evid,915/month,03/task,icalrepeat.detail/uid,c97d80c3de1d902a09809ff4b3f31afd/year,2015/">Marin Skatepark Re-Opening</a></span> Marin, CA  <span class="mod_events_latest_date">Mar 21</span></td></tr>
+</table>
+
+<!-- /mod_php version 1.0.0.Alpha1-J1.5 (c) www.fijiwebdesign.com -->
+ <div id="EventsBanner"><!-- THR-Events-Ad-300x50 -->
+<div id='div-gpt-ad-1340761425084-0' style='width:300px; height:50px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1340761425084-0'); });
+</script>
+</div></div>
+
+<!-- mod_php version 1.0.0.Alpha1-J1.5/ -->
+		<div class="module">
+			<div>
+				<div>
+					<div>
+											
+<!-- /mod_php version 1.0.0.Alpha1-J1.5 (c) www.fijiwebdesign.com -->
+ <div id="AD300x250"><!-- PUT THIS TAG IN DESIRED LOCATION OF SLOT Thrasher_Medium_Rectangle_300x250 -->
+<!-- Thrasher_Medium_Rectangle_300x250 -->
+<div id='div-gpt-ad-1340759916634-6' style='width:300px; height:250px;'>
+<a href="http://spitfirewheels.com/"><img src="imgs/spitfire_vol.gif"></a>
+</div></div>
+
+<!-- mod_php version 1.0.0.Alpha1-J1.5/ -->
+					</div>
+				</div>
+			</div>
+		</div>
+	<style type="text/css">.MagTitle {
+color: 
+white;
+display: inline;
+height: 9px;
+margin-bottom: 0;
+}
+.MagBody {
+color: #FFF;
+font-size: 12px;
+line-height: 16px;
+}
+#TheMagModule{
+color:white;
+}</style><div id="TheMagModule"><img alt="740TH1213PC1.jpg" src="imgs/300march15.jpg" style="float: left; height: 388px; width: 300px;" /><span class="MagTitle">In This Issue</span><br />
+<span class="MagBody"> Skater of the Year 2014, Wes Kremer, floats onto the April cover with a sculptural Ollie to fakie and the party continues inside as Wes and his best hemmies go loco in Gran Canaria. The yearly T-Eddys continue to shine and shun; Bones penetrates the language barrier in Poland; The Midwest gets tested by Birdhouse and a Skate Loteria photo feature helps you brush up on your Español. Muy bueno. <br />
+<a href="http://shop.thrashermagazine.com/magazines/current-issue.html?dir=asc&amp;order=position" style="font-weight:bold;font-size:16px;">Add this one to your collection.</a></span><br />
+<br />
+<!-- THR-Interior-Subscribe --><div id="div-gpt-ad-1340758366815-0" style="width: 300px; height: 107px;"><script type="text/javascript">
+// <![CDATA[
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1340758366815-0'); });
+// ]]>
+</script></div></div>
+<!-- /mod_php version 1.0.0.Alpha1-J1.5 (c) www.fijiwebdesign.com -->
+ <div id="ContestAd">
+<!-- Thrasher_Contest_300_x_199 -->
+<div id='div-gpt-ad-1340759916634-2' style='width:300px; height:199px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1340759916634-2'); });
+</script>
+</div>
+</div>
+
+<!-- mod_php version 1.0.0.Alpha1-J1.5/ -->
+
+				</div>
+			</div>
+		</div>
+		<div id="LoginAjaxBox" style="">
+			<a id="CloseAjaxBox" href="javascript:void();" onclick="firstFunction();"><img src="/templates/HomePage/images/templatesImages/CloseX.jpg" alt="Close Login Box" /></a>
+<div id="k2ModuleBox37" class="k2LoginBlock ">
+	<form action="/tags/features/" method="post" name="login" id="form-login" >
+	
+			  
+	  <fieldset class="input">
+	    <p id="form-login-username">
+	      <label for="modlgn_username">Username</label>
+	      <input id="modlgn_username" type="text" name="username" class="inputbox" alt="username" size="18" />
+	    </p>
+	    <p id="form-login-password">
+	      <label for="modlgn_passwd">Password</label>
+	      <input id="modlgn_passwd" type="password" name="passwd" class="inputbox" size="18" alt="password" />
+	    </p>
+	    	    <p id="form-login-remember">
+	      <label for="modlgn_remember">Remember Me</label>
+	      <input id="modlgn_remember" type="checkbox" name="remember" class="inputbox" value="yes" alt="Remember Me" />
+	    </p>
+	    	    
+	    <input type="submit" name="Submit" class="button" value="Login" />
+	  </fieldset>
+	  
+	  <ul>
+	    <li><a href="/lost-password/">Forgot your password?</a></li>
+	    <li><a href="/lost-user-name/">Forgot your username?</a></li>
+	    	    <li><a href="/Register/">Create an account</a></li>
+	    	  </ul>
+	  
+	  	  <fieldset>
+	  <input type="hidden" name="option" value="com_user" />
+	  <input type="hidden" name="task" value="login" />
+	  <input type="hidden" name="return" value="L3RhZ3MvZmVhdHVyZXMv" />
+	  <input type="hidden" name="1b34f8e5701fd00e65706ce8528ef091" value="1" />	  </fieldset>
+	</form>
+</div>
+
+		</div>
+	</div>
+	<div id="footer">
+				<div class="module">
+			<div>
+				<div>
+					<div>
+											
+<!-- /mod_php version 1.0.0.Alpha1-J1.5 (c) www.fijiwebdesign.com -->
+ <div id="AD728x90Lower"><!-- thrasher_lowerboard_728x90 -->
+<div id='div-gpt-ad-1340759916634-5' style='width:728px; height:90px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1340759916634-5'); });
+</script>
+</div></div>
+
+<!-- mod_php version 1.0.0.Alpha1-J1.5/ -->
+					</div>
+				</div>
+			</div>
+		</div>
+	<form action="index.php" method="post">
+	<div class="search">
+		<input name="searchword" id="mod_search_searchword" maxlength="40" alt="Search" class="inputbox" type="text" size="40" value="search..."  onblur="if(this.value=='') this.value='search...';" onfocus="if(this.value=='search...') this.value='';" />	</div>
+	<input type="hidden" name="task"   value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="1" />
+</form><div id="FooterSubNav">
+<ul>
+<li><a href="index.html"><span>Home</span></a></li>
+<li><a href="store.html"><span>Store</span></a></li>
+<li><a href="videos.html"><span>Videos</span></a></li>
+<li><a href="features.html"><span>Features</span></a> </li>
+<li><a href="events.html"><span>Events</span></a></li>
+<li><a href="skateparks.html"><span>Skateparks</span></a></li>
+<li><a href="forum.html"><span>Forum</span></a></li>
+</ul>
+</div>
+		<div id="subfooter">
+								<div style="width:960px;height:329px;margin:0px auto;">
+						<div id="footerAD">
+<div id="InhouseAD300x250"><!-- Thrasher_inhouse_300x250 -->
+<div id='div-gpt-ad-1340757303908-7' style='width:300px; height:250px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1340757303908-7'); });
+</script>
+</div></div>
+</div><div id="UserHelpFooter"><span class="SubFooterTitle">User Help</span><br />
+<br />
+<a href="/user-help/site-map/"><span class="SubFooterText">Site Map</span></a><br />
+<a href="/user-help/contact/"><span class="SubFooterText">Contact Us</span></a><br />
+<a href="/user-help/submit-guidelines/"><span class="SubFooterText">Submissions</span></a><!-- Begin Email Cloaking --><script language="javascript" type="text/javascript"><!--
+//
+// Anti-Spam Email Cloaking 3.0 by David Tulga
+// http://www.davidtulga.com/antispamemail.htm
+//
+x = '&#64;';
+eml = '&#101;&#98;&#101;&#110;' + x + '&#116;&#104;&#114;&#97;&#115;&#104;&#101;&#114;&#109;&#97;&#103;&#97;&#122;&#105;&#110;&#101;&#46;&#99;&#111;&#109;';
+msg = '&#65;&#100;&#118;&#101;&#114;&#116;&#105;&#115;&#101;';
+out = '<a class="cloak_eml" href="mailto:' + eml + '"><span class="SubFooterText">' + msg + '</span></a>';
+document.write(out);
+// -->
+</script><noscript>
+&amp;amp;lt;!-- This message is displayed if the browser has javascript disabled. --&amp;amp;gt;
+&amp;amp;amp;#65;&amp;amp;amp;#100;&amp;amp;amp;#118;&amp;amp;amp;#101;&amp;amp;amp;#114;&amp;amp;amp;#116;&amp;amp;amp;#105;&amp;amp;amp;#115;&amp;amp;amp;#101; [ &amp;amp;amp;#101;&amp;amp;amp;#98;&amp;amp;amp;#101;&amp;amp;amp;#110; (at) &amp;amp;amp;#116;&amp;amp;amp;#104;&amp;amp;amp;#114;&amp;amp;amp;#97;&amp;amp;amp;#115;&amp;amp;amp;#104;&amp;amp;amp;#101;&amp;amp;amp;#114;&amp;amp;amp;#109;&amp;amp;amp;#97;&amp;amp;amp;#103;&amp;amp;amp;#97;&amp;amp;amp;#122;&amp;amp;amp;#105;&amp;amp;amp;#110;&amp;amp;amp;#101;&amp;amp;amp;#46;&amp;amp;amp;#99;&amp;amp;amp;#111;&amp;amp;amp;#109; ] 
+</noscript><!-- End Email Cloaking --><br />
+<a href="/locate/skateshops/"><span class="SubFooterText">Shop Locator</span></a><br />
+<a href="/user-help/comment-policy/"><span class="SubFooterText">Comment Policy</span></a><br />
+<a href="/user-help/terms-conditions/"><span class="SubFooterText">Terms &amp; Conditions</span></a><br />
+<a href="/user-help/privacy-policy/"><span class="SubFooterText">Privacy Policy</span></a><br />
+
+<span class="SubFooterText"><!-- Begin Email Cloaking --><script language="javascript" type="text/javascript"><!--
+//
+// Anti-Spam Email Cloaking 3.0 by David Tulga
+// http://www.davidtulga.com/antispamemail.htm
+//
+x = '&#64;';
+eml = '&#114;&#101;&#112;&#111;&#114;&#116;' + x + '&#116;&#104;&#114;&#97;&#115;&#104;&#101;&#114;&#109;&#97;&#103;&#97;&#122;&#105;&#110;&#101;&#46;&#99;&#111;&#109;';
+msg = '&#82;&#101;&#112;&#111;&#114;&#116;&#32;&#65;&#32;&#66;&#117;&#103;';
+out = '<a class="cloak_eml" href="mailto:' + eml + '">' + msg + '</a>';
+document.write(out);
+// -->
+</script><noscript>
+&amp;amp;lt;!-- This message is displayed if the browser has javascript disabled. --&amp;amp;gt;
+&amp;amp;amp;#82;&amp;amp;amp;#101;&amp;amp;amp;#112;&amp;amp;amp;#111;&amp;amp;amp;#114;&amp;amp;amp;#116;&amp;amp;amp;#32;&amp;amp;amp;#65;&amp;amp;amp;#32;&amp;amp;amp;#66;&amp;amp;amp;#117;&amp;amp;amp;#103; [ &amp;amp;amp;#114;&amp;amp;amp;#101;&amp;amp;amp;#112;&amp;amp;amp;#111;&amp;amp;amp;#114;&amp;amp;amp;#116; (at) &amp;amp;amp;#116;&amp;amp;amp;#104;&amp;amp;amp;#114;&amp;amp;amp;#97;&amp;amp;amp;#115;&amp;amp;amp;#104;&amp;amp;amp;#101;&amp;amp;amp;#114;&amp;amp;amp;#109;&amp;amp;amp;#97;&amp;amp;amp;#103;&amp;amp;amp;#97;&amp;amp;amp;#122;&amp;amp;amp;#105;&amp;amp;amp;#110;&amp;amp;amp;#101;&amp;amp;amp;#46;&amp;amp;amp;#99;&amp;amp;amp;#111;&amp;amp;amp;#109; ] 
+</noscript><!-- End Email Cloaking --></span></div><div id="StoreFooter"><span class="SubFooterTitle">Store</span><br /><br /><a href="http://shop.thrashermagazine.com/subscriptions/united-states.html" target="_self"><span class="SubFooterText">Subscriptions<br /></span></a><a target="_self" href="http://shop.thrashermagazine.com/magazines/current-issue.html?dir=asc&amp;order=position">Current Issue</a><br />
+<a target="_self" href="http://shop.thrashermagazine.com/magazines/back-issues.html?dir=desc&amp;order=position">Back Issues</a><br /><a href="http://shop.thrashermagazine.com/clothing/shirts/t-shirts.html" target="_self"><span class="SubFooterText">T-Shirts</span></a><br /><a href="http://shop.thrashermagazine.com/clothing/sweatshirts.html" target="_self"><span class="SubFooterText">Sweatshirts</span></a><br /><a href="http://shop.thrashermagazine.com/clothing/girls.html" target="_self"><span class="SubFooterText">Girls Stuff</span></a><br /><a href="http://shop.thrashermagazine.com/clothing/kids.html"><span class="SubFooterText">Kids Clothes</span></a><br /><a href="http://shop.thrashermagazine.com/clothing/headwear.html?dir=desc&amp;limit=24&amp;order=position" target="_self"><span class="SubFooterText">Hats</span></a><br /><a href="http://shop.thrashermagazine.com/accessories-and-more/videos.html" target="_self"><span class="SubFooterText">DVDs and Video</span></a><br /><a href="http://shop.thrashermagazine.com/accessories-and-more/books-etc.html" target="_self"><span class="SubFooterText">Books &amp; Stuff</span></a><br /><a href="http://shop.thrashermagazine.com/accessories-and-more.html?dir=asc&amp;limit=48&amp;order=position" target="_self">Accessories</a><br /><a href="http://shop.thrashermagazine.com/accessories-and-more/stickers.html" target="_self"><span class="SubFooterText">Stickers</span></a><br /><a href="http://shop.thrashermagazine.com/customer-service" target="_self"><span class="SubFooterText">Customer Service</span></a></div><div id="MoreFooter"><span class="SubFooterTitle">More</span><br />
+<br />
+<a href="/user-help/links/"><span class="SubFooterText">Links</span></a><br />
+<a href="http://www.facebook.com/thrashermagazine" target="_blank"><span class="SubFooterText">Facebook</span></a><br />
+<a href="http://www.myspace.com/thrashermagazine" target="_blank"><span class="SubFooterText">Myspace</span></a><br />
+<a href="http://www.youtube.com/thrashermagazine" target="_blank"><span class="SubFooterText">YouTube</span></a><br />
+<a href="http://www.twitter.com/ThrasherMag" target="_self"><span class="SubFooterText">Twitter</span></a><br />
+<a href="http://www.flickr.com/groups/thrasher" target="_self"><span class="SubFooterText">Flickr</span></a><br />
+<a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=329901606" target="_self"><span class="SubFooterText">Podcast/iTunes</span></a><br />
+<a href="/user-help/wtf-is-rss/"><span class="SubFooterText">RSS</span></a><br />
+<a href="http://visitor.constantcontact.com/manage/optin?v=001Utocbh1JAdUdX5pNIfjCWbEsIywAtOUu"><span class="SubFooterText">Email Newsletter</span></a><br />
+<a href="http://www.thrashermagazine.com/?SiteVersion=Mobile"><span class="SubFooterText">Mobile Site</span></a></div><script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0017/8092.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+					</div>
+								<div id="Copyright">
+						<span style="text-align:right;" class="Copyright">  &copy; 1981-2015						 High Speed Productions, Inc.</span>
+				</div>
+			</div>
+		</div>
+	</div>
+<div id="CssHolder">
+</div>
+
+
+<script type="text/javascript">
+	</script>
+	
+	<script type="text/javascript">
+function alertmenow(){
+document.forms['JreviewsAdvSearch_94'].submit();
+}
+
+
+document.getElementById('jr_state94').onchange = alertmenow;
+document.getElementById('jr_country94').onchange = alertmenow;
+document.getElementById('jr_continent94').onchange = alertmenow;
+
+	</script>
+	<script type="text/javascript">
+	function alertmenow2(){
+document.forms['JreviewsAdvSearch_102'].submit();
+}
+document.getElementById('jr_shopstate102').onchange = alertmenow2;
+document.getElementById('jr_shopcountry102').onchange = alertmenow2;
+document.getElementById('jr_shopcontinent102').onchange = alertmenow2;
+
+</script>
+<script type="text/javascript">
+CheckSelect();
+
+</script>
+
+<script type="text/javascript">
+
+	// Use this example, or...
+	$('a[rel*=Shadowbox]').lightBox(); // Select all links that contains lightbox in the attribute rel
+	$('a[rel*=lightbox]').lightBox(); // Select all links that contains lightbox in the attribute rel
+	$('a[rel*=InTheMag]').lightBox(); // Select all links that contains lightbox in the attribute rel
+	$('a[rel*=gallery]').lightBox(); // Select all links that contains lightbox in the attribute rel
+	jQuery(window).load(function(){
+	setTimeout(function(){	jQuery('#Container').css('height',jQuery('.colmask').height()+jQuery('#header').height()+jQuery('.colmask').offset().top);
+}, 5000)
+	});
+	
+</script>
+
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7415216-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+	initialize();
+</script>
+
+</body>
+</html>

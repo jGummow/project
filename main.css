@@ -1,0 +1,1386 @@
+@charset "utf-8";
+/* CSS Document */
+/* CSSTidy 1.3: Tue, 26 Apr 2011 13:08:19 -0600 */
+li.item1 {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") no-repeat scroll 0 -378px transparent;
+color:#666333;
+display:block;
+font-family:sans-serif;
+font-size:13px;
+font-style:normal;
+font-variant:normal;
+font-weight:700;
+line-height:normal;
+text-decoration:none;
+width:93px;
+height:33px;
+padding:10px 0 9px;
+}
+
+li.item98 {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") no-repeat scroll -137px -1043px transparent;
+color:#666333;
+display:block;
+font-family:sans-serif;
+font-size:13px;
+font-style:normal;
+font-variant:normal;
+font-weight:700;
+line-height:normal;
+text-decoration:none;
+width:95px;
+height:33px;
+padding:10px 0 9px;
+}
+
+li.item93 {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") no-repeat scroll 0 -1043px transparent;
+color:#666333;
+display:block;
+font-family:sans-serif;
+font-size:13px;
+font-style:normal;
+font-variant:normal;
+font-weight:700;
+line-height:normal;
+text-decoration:none;
+width:105px;
+height:33px;
+padding:10px 0 9px;
+}
+
+li.item99 {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") no-repeat scroll 0 -233px transparent;
+color:#666333;
+display:block;
+font-family:sans-serif;
+font-size:13px;
+font-style:normal;
+font-variant:normal;
+font-weight:700;
+line-height:normal;
+text-decoration:none;
+width:132px;
+height:33px;
+padding:10px 0 9px;
+}
+
+li.item100 {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") no-repeat scroll 0 -91px transparent;
+color:#666333;
+display:block;
+font-family:sans-serif;
+font-size:13px;
+font-style:normal;
+font-variant:normal;
+font-weight:700;
+line-height:normal;
+text-decoration:none;
+width:112px;
+height:33px;
+padding:10px 0 9px;
+}
+
+li.item94 {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") no-repeat scroll 0 -661px transparent;
+color:#666333;
+display:block;
+font-family:sans-serif;
+font-size:13px;
+font-style:normal;
+font-variant:normal;
+font-weight:700;
+line-height:normal;
+text-decoration:none;
+width:170px;
+height:33px;
+padding:10px 0 9px;
+}
+
+li.item101 {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") no-repeat scroll -127px -377px transparent;
+color:#666333;
+display:block;
+font-family:sans-serif;
+font-size:13px;
+font-style:normal;
+font-variant:normal;
+font-weight:700;
+line-height:normal;
+text-decoration:none;
+width:105px;
+height:33px;
+padding:10px 0 9px;
+}
+
+li.item102 {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") no-repeat scroll 0 -520px transparent;
+color:#666333;
+display:block;
+font-family:sans-serif;
+font-size:13px;
+font-style:normal;
+font-variant:normal;
+font-weight:700;
+line-height:normal;
+text-decoration:none;
+width:149px;
+height:33px;
+padding:10px 0 9px;
+}
+
+li.item1 a,li.item98 a,li.item93 a,li.item99 a,li.item100 a,li.item94 a,li.item101 a,li.item102 a {
+width:170px;
+height:33px;
+}
+
+li.item1:hover{
+background-position:0 -338px;
+}
+
+li.item98:hover{
+background-position:-137px -1004px;
+}
+
+li.item93:hover{
+background-position:0 -1004px;
+}
+
+li.item99:hover{
+background-position:0 -194px;
+}
+
+li.item100:hover{
+background-position:0 -52px;
+}
+
+li.item94:hover{
+background-position:0 -623px;
+}
+
+li.item101:hover{
+background-position:-127px -338px;
+}
+
+li.item102:hover {
+background-position:0 -481px;
+}
+
+li.item1.active {
+background-position:0 -295px;
+color:#FFF;
+}
+
+li.item98.active {
+background-position:-137px -960px;
+color:#FFF;
+}
+
+li.item93.active {
+background-position:0 -959px;
+color:#FFF;
+}
+
+li.item99.active {
+background-position:0 -149px ;
+color:#FFF;
+}
+
+li.item100.active {
+background-position:0 -8px ;
+color:#FFF;
+}
+
+li.item94.active {
+background-position:0 -579px ;
+color:#FFF;
+}
+
+li.item101.active {
+background-position:-127px -294px ;
+color:#FFF;
+}
+
+li.item102.active {
+background-position:0 -437px ;
+color:#FFF;
+}
+
+#Menu a {
+display:block;
+
+}
+
+.JunkdrawerTextHolder {
+    margin-bottom: 12px;
+    margin-left: 110px;
+    min-height: 73px;
+    padding-top: 3px;
+    width: 210px;
+}
+
+.share {
+float: left;
+margin-top: -3px;
+position: absolute;
+left: 112px;
+}
+.JunkdrawerCommentHolder {
+width: 200px;
+padding-top: 22px;
+margin-left: 110px;
+}
+
+
+
+.JunkdrawerDotted {
+    border-bottom: 1px dotted #333333;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height: 135px;
+    width: 320px;
+}
+
+#Skin {
+position:absolute;
+width:100%;
+}
+
+.JunkDrawerPost {
+padding-top:0;
+clear:both;
+min-height:115px;
+position:relative;
+width:340px;
+}
+
+#Junkdrawer {
+margin-top:8px;
+background-color:#fff;
+width:340px;
+}
+
+#Junkdrawer img {
+padding-top:0;
+padding-bottom:0;
+margin-top:5px;
+margin-bottom:0;
+margin-right:10px;
+}
+
+.MiddleContentPost {
+border-bottom:2px dotted #333;
+width:280px;
+padding-bottom:10px;
+margin-bottom:20px;
+clear:both;
+}
+
+.search input {
+color:#666;
+font-weight:400;
+font-size:11px!important;
+height:12px;
+font-family:Helvetica,sans-serif!important;
+width:149px!important;
+}
+
+div#footer .search input {
+color:#333;
+font-weight:400;
+font-size:11px!important;
+font-family:Helvetica,sans-serif!important;
+height:12px;
+width:250px!important;
+}
+
+#footer .search {
+background:transparent none no-repeat scroll 0 0;
+border:0 none;
+margin-left:auto;
+margin-right:auto;
+padding-left:5px;
+width:270px;
+padding-top:40px;
+padding-bottom:20px;
+}
+
+.SubFooterTitle {
+font-size:16px;
+}
+
+.SubFooterText {
+font-size:12px;
+line-height:20px;
+}
+
+.Copyright {
+clear:both;
+display:block;
+float:right;
+text-align:center;
+width:355px;
+font-size:10px;
+color:#999;
+}
+
+#Copyright {
+display:block;
+height:10px;
+width:960px;
+margin:15px auto 30px;
+}
+
+#LoginAjaxBox {
+background-color:#333;
+color:#999;
+left:583px;
+position:absolute;
+top:27px;
+z-index:200;
+height:0;
+width:200px;
+overflow:hidden;
+font-size:12px;
+font-weight:700;
+line-height:17px;
+padding:0;
+}
+
+#LoginAjaxBox li {
+list-style:none;
+margin:0;
+padding:8px 0 0;
+}
+
+#LoginAjaxBox ul {
+list-style:none;
+margin:0;
+padding:0;
+}
+
+#CloseAjaxBox {
+position:absolute;
+right:10px;
+top:10px;
+}
+
+#LoginAjaxBox a:hover {
+color:#c00;
+font-size:10px;
+text-decoration:none!important;
+}
+
+.MiddleContentLink:hover {
+text-decoration:none!important;
+color:#cc0000 !important;
+}
+
+#StoreHiddenMenu {
+background-color:#444!important;
+left:93px!important;
+margin-left:auto;
+margin-right:auto;
+min-height:125px!important;
+position:absolute;
+top:169px!important;
+width:180px!important;
+z-index:100;
+color:#fff!important;
+padding:0!important;
+}
+
+#VideosHiddenMenu {
+background-color:#444!important;
+left:183px!important;
+margin-left:auto;
+margin-right:auto;
+min-height:125px!important;
+position:absolute;
+top:169px!important;
+width:180px!important;
+z-index:100;
+color:#fff!important;
+padding:0!important;
+}
+
+#EventsHiddenMenu {
+background-color:#444!important;
+left:420px!important;
+margin-left:auto;
+margin-right:auto;
+min-height:125px!important;
+position:absolute;
+top:169px!important;
+width:180px!important;
+z-index:100;
+color:#fff!important;
+padding:0!important;
+}
+
+#SkateparksHiddenMenu {
+background-color:#444!important;
+left:541px!important;
+margin-left:auto;
+margin-right:auto;
+min-height:125px!important;
+position:absolute;
+top:169px!important;
+width:180px!important;
+z-index:100;
+color:#fff!important;
+padding:0!important;
+}
+
+#ForumHiddenMenu {
+background-color:#444!important;
+left:707px!important;
+margin-left:auto;
+margin-right:auto;
+min-height:125px!important;
+position:absolute;
+top:169px!important;
+width:180px!important;
+z-index:100;
+color:#fff!important;
+padding:0!important;
+}
+
+.mod_events_latest {
+border-top:0!important;
+height:16px!important;
+font-size:10px!important;
+color:grey!important;
+padding-bottom:5px;
+}
+
+table.mod_events_latest_table {
+background-image:url(/templates/HomePage/images/templatesImages/EventsBox.jpg);
+padding-top:42px;
+background-repeat:no-repeat;
+margin-top:15px;
+padding-bottom:10px;
+border-bottom:1px dotted #ccccc;
+}
+
+.mod_events_latest_content a:hover {
+color:#c00!important;
+font-family:Helvetica,sans-serif!important;
+font-size:12px!important;
+text-decoration:none;
+}
+
+.mod_events_latest_date {
+font-size:10px!important;
+}
+
+.mod_events_latest_first {
+font-size:10px!important;
+color:grey!important;
+padding-bottom:5px!important;
+height:16px!important;
+}
+
+.MiddleContentPost a:visited,.MiddleContentPost a {
+color:#fff;
+}
+img.stoke {
+width: 86px;
+height: auto;
+}
+#LoginBox a:hover {
+color:#c00;
+text-decoration:underline;
+}
+
+
+
+.MiddleContentHolder img, .MiddleContentHolder {
+width: 280px !important;
+height: auto!important;
+}
+.MiddleContentPost p {
+margin: 0px;
+}
+
+.recentforumtopics a,.recentforumtopics,.recentforumtopics a:visited {
+color:#FFF;
+font-size:12px;
+text-decoration:none;
+font-weight:700;
+}
+
+.recentforumtopics a:hover {
+color:#c00;
+font-size:12px;
+text-decoration:none!important;
+}
+
+.recentforumtopics li {
+padding-top:5px;
+background-color:#000;
+border:0 none;
+}
+
+.JunkdrawerText {
+color:#000;
+font-size:12px;
+line-height:16px;
+}
+
+.JunkdrawerText a,.JunkdrawerText a:visited {
+color:#c00;
+text-decoration:none;
+font-weight:700;
+}
+
+.JunkdrawerText a:hover {
+color:#666;
+text-decoration:none;
+}
+
+a.JunkdrawerComments,a.JunkdrawerComments:visited {
+bottom:9px;
+color:#666;
+font-size:10px;
+position:absolute;
+text-decoration:none;
+right:20px;
+}
+
+a.JunkdrawerComments:hover {
+color:#666;
+text-decoration:underline;
+}
+
+a.JunkdrawerMainLink:link,a.JunkdrawerMainLink:visited, #MoreJunkdrawerLink:link, #MoreJunkdrawerLink:visited {
+color:#000;
+font-size:14px;
+font-weight:700;
+clear:both;
+margin-left:0;
+width:330px;
+display:block;
+}
+
+a.JunkdrawerMainLink:hover {
+color: #cc0000;
+}
+
+#subfooter a:link,#subfooter a:visited {
+color:#FFF;
+font-size:12px;
+line-height:20px;
+margin-bottom:5px;
+}
+
+ul.recentforumtopics {
+margin-left:0;
+padding-left:3px;
+list-style:none;
+background-image:url(/templates/HomePage/images/templatesImages/ForumFeeder.jpg);
+background-repeat:no-repeat;
+padding-top:35px;
+}
+
+#MagazineHiddenMenu {
+background-color:#444!important;
+color:#fff!important;
+left:790px;
+top:169px!important;
+width:180px!important;
+}
+
+#FeaturesHiddenMenu {
+background-color:#444!important;
+color:#fff!important;
+left:790px;
+top:169px!important;
+width:180px!important;
+font-weight:700;
+min-height:125px!important;
+}
+
+#FooterSubNav {
+height:30px;
+display:block;
+text-align:center;
+}
+
+#FooterSubNav a:link,#FooterSubNav a:visited {
+color:#777;
+}
+
+#FooterSubNav ul {
+width:620px;
+margin:0 auto;
+}
+
+#footer {
+clear:both;
+float:left;
+width:100%;
+border-top:none!important;
+margin-top:30px!important;
+}
+
+#FooterSubNav li {
+float:left;
+list-style:none;
+font-weight:700;
+text-transform:uppercase;
+font-size:11px;
+border-right:1px solid #777;
+padding:0 15px;
+}
+
+#FooterSubNav li:last-child {
+border-right:0 none!important;
+}
+
+.MiddleContentTitle br {
+margin-bottom:7px;
+}
+
+.recentforumtopics .SmallGrey,.recentforumtopics .SmallGrey a {
+font-weight:400!important;
+}
+
+#SocialNetworkIconContainer {
+border-bottom: 2px dotted #333333;
+height: 37px;
+padding: 10px 0 25px;
+width: 300px;
+}
+
+#SocialNetworkIconContainer .SocialHeader {
+background: url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") repeat scroll 0 17px transparent;
+display: none;
+height: 17px;
+padding-bottom: 7px;
+width: 230px;
+}
+
+.MagHeader {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") repeat scroll 0 60px transparent;
+display:block;
+height:32px;
+margin-bottom:10px;
+margin-top:15px;
+width:115px;
+}
+
+#VideoHeaderNavLeft, #VideoHeaderNavRight {
+margin-top: 76px;
+}
+.VideoHeaderItem.Item0,.VideoHeaderItem.Item1, .VideoHeaderItem.Item2, .VideoHeaderItem.Item3 {
+margin-right: 13px;
+}
+
+.VideoHeaderItem {
+float: left;
+height: 146px;
+position: relative;
+width: 219px;
+}
+
+.VideoHeaderItem img {
+margin-top: 7px;
+width: 219px !important;
+margin-left: 3px;
+height: auto !Important;
+}
+#k2Container img {
+height: auto !important;
+}
+.VideoHeaderMask {
+background: none !Important;
+display: block;
+height: 146px;
+position: absolute;
+width: 219px;
+}
+
+.TopBarBar2 {
+    background-image: url("http://www.thrashermagazine.com/Callbacks/planb_dropdown_sprite_nodates.png");
+    background-position: 0 -59px;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 40px;
+    margin-top: 15px;
+    padding: 5px;
+    position: relative;
+    width: 960px;
+}
+#TopBar2 {
+    height: 253px;
+    position: relative;
+    width: 960px;
+}
+#CountdownTimer2 span {
+    margin-right: 3px;
+}
+#CountdownTimer2 {
+    position: absolute;
+    right: 126px;
+}
+#activatelink2 {
+    background: url("http://www.thrashermagazine.com/Callbacks/planb_dropdown_sprite_nodates.png") no-repeat scroll -891px -2px transparent;
+    display: block;
+    height: 47px;
+    margin-right: 10px;
+    position: absolute;
+    right: 4px;
+    top: 0;
+    width: 62px;
+}
+#activatelink2.close{
+background-position: -822px -2px !important;
+width: 61px !important;
+}
+
+a.VideoHeaderMask:hover {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") repeat scroll -4px 428px transparent;
+}
+
+#VideoHeaderNavLeft {
+background: url(http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png) repeat scroll 115px 77px transparent;
+display: block;
+float: left;
+height: 22px;
+width: 15px;
+}
+
+.VideoHeaderTitle {
+color: #FFFFFF;
+display: block;
+font-size: 12px;
+font-weight: bold;
+height: 33px;
+margin-top: 0px;
+overflow: hidden;
+width: 225px;
+padding-top: 2px;
+}
+
+#VideoHeaderNavRight {
+background: url(http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png) repeat scroll 59px 52px transparent;
+display: block;
+float: right;
+height: 22px;
+width: 15px;
+}
+
+#VideoHeaderHolder, #VideoHeaderHolderTemp {
+position: absolute;
+left: 18px;
+top: 18px;
+width: 930px;
+}
+
+#VideoHeader {
+padding-top: 5px;
+height: 202px;
+overflow: hidden;
+position: relative;
+text-align: center;
+width: 960px;
+background-image: url(http://www.thrashermagazine.com/templates/HomePage/images/Videos-Bar.png);
+background-repeat: no-repeat;
+padding-top: 10px;
+background-position: 0px 5px;
+}
+
+#SocialNetworkIconsEmail {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") repeat scroll -60px -763px transparent;
+display:block;
+float:left;
+height:48px;
+width:50px;
+}
+
+#SocialNetworkIconsEmail:hover {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") repeat scroll -60px -713px transparent;
+display:block;
+float:left;
+height:48px;
+width:50px;
+}
+
+#SocialNetworkIconsTwitter {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") repeat scroll -60px -884px transparent;
+display:block;
+float:left;
+height:48px;
+width:50px;
+}
+
+#SocialNetworkIconsTwitter:hover {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") repeat scroll -60px -834px transparent;
+display:block;
+float:left;
+height:48px;
+width:50px;
+}
+
+#SocialNetworkIconsFacebook {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") repeat scroll 0px -763px transparent;
+display:block;
+float:left;
+height:48px;
+width:50px;
+}
+
+#SocialNetworkIconsFacebook:hover {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") repeat scroll 0px -713px transparent;
+display:block;
+float:left;
+height:48px;
+width:50px;
+}
+
+#SocialNetworkIconsMyspace {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") repeat scroll -180px -884px transparent;
+display:block;
+float:left;
+height:48px;
+width:50px;
+}
+
+#SocialNetworkIconsMyspace:hover {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") repeat scroll -180px -834px transparent;
+display:block;
+float:left;
+height:48px;
+width:50px;
+}
+
+#SocialNetworkIconsYoutube {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") repeat scroll -1px -884px transparent;
+display:block;
+float:left;
+height:48px;
+width:50px;
+}
+
+#SocialNetworkIconsYoutube:hover {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") repeat scroll -1px -834px transparent;
+display:block;
+float:left;
+height:48px;
+width:50px;
+}
+
+#SocialNetworkIconsRSS {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") repeat scroll -121px -884px transparent;
+display:block;
+float:left;
+height:48px;
+width:50px;
+}
+
+#SocialNetworkIconsRSS:hover {
+background:url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") repeat scroll -121px -834px transparent;
+display:block;
+float:left;
+height:48px;
+width:50px;
+}
+
+body {
+border:0;
+width:100%;
+background:#000;
+min-width:960px;
+font-size:90%;
+font-family:Helvetica, san-serif;
+color:#000;
+margin:0;
+padding:0;
+background-color: black;
+background-image: url("sm.png");	
+background-repeat: no-repeat;
+}
+
+a,a:visited {
+color:#fff;
+text-decoration:none;
+}
+
+p {
+margin:.4em 0 .8em;
+padding:0;
+}
+
+img {
+margin:0 0 5px;
+}
+
+#header {
+clear:both;
+margin-left:auto;
+margin-right:auto;
+width:1000px;
+position:relative;
+border-bottom:0 solid #000;
+}
+
+#header ul {
+clear:left;
+float:left;
+width:100%;
+list-style:none;
+margin:10px 0;
+padding:0;
+height:25px;
+}
+
+#header ul li {
+float:left;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.colmask {
+position:relative;
+clear:both;
+float:left;
+width:960px;
+overflow:hidden!important;
+}
+
+#Container {
+background-color:#000;
+margin-left:auto;
+margin-right:auto;
+padding-left:20px;
+padding-right:20px;
+width:960px;
+padding-top:10px;
+position:relative;
+}
+
+#Search {
+float:right;
+margin-right:40px;
+margin-top:0;
+padding-bottom:1px;
+}
+
+#HeaderImage {
+float:left;
+width:232px;
+}
+
+#HeaderAd {
+background-color:transparent;
+float:right;
+height:90px;
+margin-top:10px;
+width:728px;
+margin-right:40px;
+}
+
+#Menu {
+margin-left:0;
+}
+
+#LoginBox {
+float:right;
+font-size:10px;
+padding-right:10px;
+padding-top:5px;
+color:#fff;
+}
+
+#EventsBanner {
+margin-top:0;
+padding-bottom:15px;
+border-bottom:2px dotted #333;
+}
+
+#AD728x90Lower {
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+    width: 728px;
+}
+
+#UserHelpFooter {
+float:left;
+width:170px;
+text-align:left;
+}
+
+#subfooter {
+background-color:#333;
+color:#FFF;
+height:383px;
+padding-top:30px;
+text-align:center;
+width:100%;
+}
+
+#subfooter center {
+padding-left:20px;
+}
+
+#footerAD {
+float:left;
+width:400px;
+position:relative;
+}
+
+#ContestAd {
+background: url("http://www.thrashermagazine.com/Callbacks/BackgroundSpirte.png") no-repeat scroll 0 -1206px transparent;
+padding-top: 45px;
+border-bottom:2px dotted #333;
+padding-bottom:15px;
+margin-top:15px;
+}
+
+#FooterAdText {
+float:right;
+position:absolute;
+right:55px;
+text-align:left;
+top:127px;
+}
+
+#StokeOfTheDay {
+border-bottom: 2px dotted #333;
+float: left;
+font-size: 12px;
+margin-bottom: 15px;
+min-height: 75px;
+padding-bottom: 15px;
+text-align: center;
+width: 280px;
+margin-top: 15px;
+}
+
+#StokeOfTheDay img {
+margin:0!important;
+}
+
+#MoreJunkdrawer {
+background-color:#CCC;
+height:22px;
+width:100%;
+padding:5px 0;
+}
+
+#MoreJunkdrawerLink {
+color:#000;
+float:right;
+font-size:12px;
+font-weight:700;
+padding-right:10px;
+padding-top:5px;
+}
+
+.holygrail {
+background:#000;
+}
+
+.holygrail .colmid {
+float:left;
+width:200%;
+margin-left:-300px;
+position:relative;
+right:100%;
+background:#000;
+}
+
+.holygrail .colleft {
+float:left;
+width:100%;
+margin-left:-50%;
+position:relative;
+left:650px;
+background:#000;
+}
+
+.holygrail .col1wrap {
+float:left;
+width:50%;
+position:relative;
+right:345px;
+padding-bottom:1em;
+}
+
+.holygrail .col1 {
+position:relative;
+left:200%;
+overflow:hidden;
+color:#fff;
+margin:15px 300px 0 355px;
+}
+
+.holygrail .col2 {
+float:right;
+width:340px;
+position:relative;
+right:10px;
+}
+
+.holygrail .col3 {
+float:right;
+width:300px;
+margin-right:10px;
+position:relative;
+left:50%;
+margin-top:3px;
+}
+
+#StoreFooter,#MoreFooter {
+float:left;
+text-align:left;
+width:170px;
+}
+
+#lightbox-image{
+cursor
+}
+
+.JunkdrawerComments {
+bottom:14px;
+color:#000;
+font-size:10px;
+position:absolute;
+text-decoration:underline;
+}
+
+#searchForm tr {
+display:block;
+padding-bottom:5px;
+}
+
+.itemNavigation a:visited, {
+color:#C00;
+}
+
+.mod_events_latest_content a:link,.mod_events_latest_content a:visited {
+color:#FFF!important;
+font-family:Helvetica,sans-serif!important;
+font-size:12px!important;
+text-decoration:none;
+font-weight:700;
+}
+
+#LoginAjaxBox a,#LoginAjaxBox a:visited {
+color:#fff;
+font-size:10px;
+text-decoration:none;
+}
+
+#system-message {
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+width: 960px;
+position: relative;
+z-index: 1000;
+padding: 0;
+color: #FFF;
+}
+
+#inhouseLeftAd {
+margin-bottom:10px;
+}
+
+body img,#LoginAjaxBox fieldset {
+border:0;
+}
+
+#google_ads_div_Thrasher_Background_Skin_ad_container,#google_ads_div_Thrasher_Background_Skin_Homepage_ad_container,#Menu span, #div-gpt-ad-1340757303908-5 {
+display: none;
+}
+.MiddleContentTitle,.MagTitle,.MagTitle {
+font-size:16px;
+font-weight:700;
+}
+.MagTitle {
+    color: #FFFFFF;
+    display: block;
+    height: 9px;
+    margin-bottom: 0;
+}
+.MiddleContentText,.MagBody,.MiddleContentText,.MagBody {
+color:#FFF;
+font-size:12px;
+line-height:16px;
+}
+
+.MiddleContentPost a:hover,#LoginBox a,#LoginBox a:visited,#TheMagModule a:link,#TheMagModule a:visited {
+color:#c00;
+}
+
+a.JunkdrawerMainLink:hover,#FooterSubNav a:hover, #MoreJunkdrawerLink:hover {
+color:#c00!important;
+text-decoration:none !important;
+}
+
+#subfooter a:hover,a:hover {
+color:#c00;
+text-decoration:none;
+}
+
+#AD300x600,#AD300x250,#TheMagModule {
+margin-top:15px;
+padding-bottom:15px;
+border-bottom:2px dotted #333;
+}
+#Burnout {
+border-bottom: 2px dotted #333333;
+margin-top: 17px;
+padding-bottom: 10px;
+clear: both;
+width: 280px;
+margin-bottom: 16px;
+}
+#Burnout img{
+width:280px !important;
+height:auto !Important;
+}
+#inhouseLeftAd img,#Burnout img,#iw_kml h1 a imagesV2/InHouse_Misc/2010/04/FeatureTagIndex/
+#iw_kml h1 {
+margin:0;
+}
+
+/**
+ * jQuery lightBox plugin
+ * This jQuery plugin was inspired and based on Lightbox 2 by Lokesh Dhakar (http://www.huddletogether.com/projects/lightbox2/)
+ * and adapted to me for use like a plugin from jQuery.
+ * @name jquery-lightbox-0.5.css
+ * @author Leandro Vieira Pinho - http://leandrovieira.com
+ * @version 0.5
+ * @date April 11, 2008
+ * @category jQuery plugin
+ * @copyright (c) 2008 Leandro Vieira Pinho (leandrovieira.com)
+ * @license CCAttribution-ShareAlike 2.5 Brazil - http://creativecommons.org/licenses/by-sa/2.5/br/deed.en_US
+ * @example Visit http://leandrovieira.com/projects/jquery/lightbox/ for more informations about this jQuery plugin
+ */
+#jquery-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+}
+#jquery-lightbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+}
+#jquery-lightbox a img { border: none; }
+#lightbox-container-image-box {
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+#lightbox-container-image { padding: 10px; }
+#lightbox-loading {
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+}
+#lightbox-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	cursor:pointer;
+}
+#lightbox-container-image-box > #lightbox-nav { left: 0; }
+#lightbox-nav a { outline: none;}
+#lightbox-nav-btnPrev, #lightbox-nav-btnNext {
+	width: 49%;
+	height: 100%;
+	zoom: 1;
+	display: block;
+}
+#lightbox-nav-btnPrev { 
+	left: 0; 
+	float: left;
+}
+#lightbox-nav-btnNext { 
+	right: 0; 
+	float: right;
+}
+#lightbox-container-image-data-box {
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	overflow: auto;
+	width: 100%;
+	padding: 0 10px 0;
+}
+#lightbox-container-image-data {
+	padding: 0 10px; 
+	color: #666; 
+}
+#lightbox-container-image-data #lightbox-image-details { 
+	width: 70%; 
+	float: left; 
+	text-align: left; 
+}	
+#lightbox-image-details-caption { font-weight: bold; }
+#lightbox-image-details-currentNumber {
+	display: block; 
+	clear: left; 
+	padding-bottom: 1.0em;	
+}			
+#lightbox-secNav-btnClose {
+	width: 66px; 
+	float: right;
+	padding-bottom: 0.7em;	
+}
+#VideoHeaderSep {
+    border-color:  #333333;
+    border-style: none none dotted;
+    border-width: 0 0 2px;
+    margin:0;
+}
+
+#VideoHeaderNavLeft, #VideoHeaderNavRight {
+    cursor: pointer;
+}
+.CatShare {
+    float: right;
+}
+#FeaturesHiddenMenu div:hover, #StoreHiddenMenu div:hover, #VideosHiddenMenu div:hover, #EventsHiddenMenu div:hover, #MagazineHiddenMenu div:hover{
+cursor: pointer;
+}
+
+fieldset{
+margin:0px;
+padding:0px;
+border:0px;
+}
+#google_ads_iframe_Thrasher_Background_Skin_Homepage {
+display: none;
+}
+#BigContainer{overflow:hidden;}
+#MoreJunkdrawer #MoreJunkdrawerLink {
+margin-left: 10px;
+float: left;
+}
+
